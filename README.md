@@ -322,6 +322,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Tanish&backgroundColor=b6e3f4" width="100px" alt="Tanish"/><br />
       <b>Tanish Aggarwal</b><br>
       <a href="https://www.linkedin.com/in/tanishaggarwal06/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       👑 <i>Team Lead</i><br />
       Hardware & Edge Privacy
@@ -330,6 +331,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Chakshu&backgroundColor=c0aede" width="100px" alt="Chakshu"/><br />
       <b>Chakshu Arora</b><br>
       <a href="https://www.linkedin.com/in/chakshuarora716/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       🧠 <i>Memory Architect</i><br />
       Episodic Memory & Agents
@@ -338,6 +340,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Yash&backgroundColor=ffdfbf" width="100px" alt="Yash"/><br />
       <b>Yash Goel</b><br>
       <a href="https://www.linkedin.com/in/yash-goelcs/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       🗣️ <i>Voice Engineer</i><br />
       NLP & Accessibility
@@ -346,6 +349,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Anshuman&backgroundColor=d1ffbd" width="100px" alt="Anshuman"/><br />
       <b>Anshuman Dutta</b><br>
       <a href="https://www.linkedin.com/in/anshuman-dutta-b62b37339/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       👁️ <i>Vision Lead</i><br />
       Computer Vision (YOLO/CLIP)
@@ -354,9 +358,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
 </table>
 
 **College:** Vivekananda Institute of Professional Studies (VIPS), Delhi 🏛️
-
 </div>
----
 
 ---
 
@@ -369,7 +371,6 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
   <br />
   <p>
     Made with ❤️ & ☕ by <b>Team Sicario</b><br>
-    <b>Hack The Winter (Round 1)</b> • VIPS, Delhi
+    <b>Hack The Winter (Round 1)</b>
   </p>
-
 </div>
