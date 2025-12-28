@@ -33,13 +33,65 @@
 
 ---
 
-## 🔮 The Vision
+## 📉 The Problem: The "Context Gap"
 
-> *"Memory is the diary that we all carry about with us." — Oscar Wilde*
+Alzheimer’s and Dementia are not just about forgetting names; they are about **losing the narrative of life**.
 
-But what happens when that diary starts losing pages? 
+Patients suffer from **Episodic Memory Loss**, meaning they forget the *context* of recent events.
+* *"Where did I put my glasses?"* (Object Permanence)
+* *"Did I already take my medicine?"* (Action Verification)
+* *"Who is this person standing next to me?"* (Social Recognition)
 
-**SAHAYAK** is a cognitive support ecosystem designed to restore independence to Alzheimer's patients. Unlike passive trackers, Sahayak is an **active observer**. It "sees" what you see, "hears" what you hear, and builds a **Digital Episodic Memory** to answer questions about your daily life.
+
+
+### ❌ Why Current Tech Fails?
+Existing solutions address the symptoms, not the root cause.
+
+| Technology | What it does | Why it fails for Dementia? |
+| :--- | :--- | :--- |
+| **GPS Trackers** | Tracks user's location. | Tells *where* they are, but not *what* they are doing. |
+| **Smart Speakers** | Answers general questions. | Connected to the Internet, not the user's **personal reality**. |
+| **CCTV Cameras** | Passive recording. | No intelligence; cannot answer user queries in real-time. |
+| **Reminder Apps** | Sets alarms. | Passive; requires the user to remember to input the data. |
+
+---
+
+## 💡 Our Solution: The "External Hippocampus"
+
+**Sahayak** fills this gap by acting as an artificial extension of the human brain.
+
+It is an **autonomous, wearable AI agent** that continuously:
+1.  **Observes** the environment.
+2.  **Understands** context (Objects + People + Time).
+3.  **Logs** events into a secure, offline memory bank.
+4.  **Recalls** specific details upon voice command.
+
+
+
+### 🧩 Solution at a Glance
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>👁️ Contextual Vision</h3>
+      <p>Using <b>YOLOv8 + CLIP</b>, Sahayak identifies objects (Keys, Wallet) and specific people (Family members), linking them to a location.</p>
+    </td>
+    <td width="50%">
+      <h3>🧠 Episodic Memory</h3>
+      <p>It doesn't just store video; it stores <b>Events</b>. <br><i>"Glass placed on Table at 6 PM"</i> becomes a searchable memory.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🗣️ Natural Interaction</h3>
+      <p><b>No screens, no typing.</b> The user simply asks, <i>"Where are my glasses?"</i> and gets a voice answer via <b>Bone Conduction Audio</b>.</p>
+    </td>
+    <td width="50%">
+      <h3>🛡️ Privacy First</h3>
+      <p><b>What happens at home, stays at home.</b> All processing happens locally on the <b>Raspberry Pi</b>. No cloud uploads.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
