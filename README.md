@@ -336,6 +336,7 @@ Here is Sahayak in action, processing the real world in real-time.
     </tr>
   </table>
 </div>
+
 ---
 
 ## 🌍 Real-World Impact & Use Cases
