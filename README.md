@@ -64,27 +64,47 @@ We have engineered a **Modular Agent System** that runs entirely offline on the 
 
 
 ```mermaid
-graph LR
-    subgraph Senses [Sense]
-      A[👁️ Camera] -->|Frames| C(Vision Agent)
-      B[👂 Mic] -->|Audio| D(Voice Agent)
+graph TD
+    %% Styling Definitions
+    classDef sensory fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef process fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+    classDef memory fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef action fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
+
+    subgraph SENSORY["📷 SENSORY LAYER"]
+        Cam("Pi Camera Module 3") -->|Video Stream| Vision[Vision Pipeline]
+        Mic("Bone Conduction Mic") -->|Audio Stream| Audio[Audio Pipeline]
     end
 
-    subgraph Brain [Cognitive Core]
-      C -->|Objects + People| E{Memory Engine}
-      D -->|User Query| F(Query Agent)
-      F <-->|Recall| E
+    subgraph PROCESSING["🧠 PROCESSING LAYER (RPi 4)"]
+        Vision -->|Frames| YOLO["YOLOv8<br>(Object Detection)"]
+        Vision -->|Frames| Face["dlib<br>(Face Recognition)"]
+        Audio -->|Voice| Whisper["Whisper STT"]
+        
+        YOLO -->|Metadata| Context[Context Engine]
+        Face -->|Metadata| Context
+        Whisper -->|Query| Intent[Intent Classifier]
     end
 
-    subgraph Action [Act]
-      E -->|Contextual Answer| G[🔊 Speech Output]
+    subgraph MEMORY["💾 MEMORY LAYER"]
+        Context -->|Write Events| SQL[("SQLite Event Log")]
+        Intent <-->|Read Context| SQL
     end
-    
-    style Senses fill:#f9f,stroke:#333,stroke-width:2px
-    style Brain fill:#bbf,stroke:#333,stroke-width:2px
-    style Action fill:#bfb,stroke:#333,stroke-width:2px
+
+    subgraph ACTION["🔊 ACTION LAYER"]
+        Intent -->|Response Text| TTS["Coqui TTS"]
+        TTS -->|Audio Signal| Speaker("Bone Conduction<br>Transducer")
+    end
+
+    %% Apply Styles
+    class Cam,Mic,Vision,Audio sensory;
+    class YOLO,Face,Whisper,Context,Intent process;
+    class SQL memory;
+    class TTS,Speaker action;
 
 ```
+---
+
 ## 🌟 Key Features: Why Sahayak stands out?
 
 Sahayak is not just a reminder app; it is a **fully autonomous cognitive system**.
@@ -121,6 +141,7 @@ Sahayak is not just a reminder app; it is a **fully autonomous cognitive system*
     </td>
   </tr>
 </table>
+
 ---
 
 ## 🛠️ Tech Stack & Dependencies
@@ -234,21 +255,6 @@ Sahayak listens for natural language. You don't need robotic commands.
 * **Stability Matters:** The memory is only formed when an object is stable for **3 seconds**. Don't wave objects around quickly.
 * **Lighting:** Ensure the room is reasonably lit for the Camera to detect objects accurately.
 ---
-## 🧬 The Core Innovation: Episodic Memory
-
-Standard AI creates data. **Sahayak creates Stories.**
-We utilize a custom JSON structure to mimic the human brain's **"Event Indexing"**.
-
-<div align="center">
-
-| 🕰️ Time | 📦 Object | 📍 Location | 👤 Person | 📝 Generated Memory |
-| --- | --- | --- | --- | --- |
-| `06:54 PM` | `Glasses` | `Sofa` | `Mishu` | *"You kept your glasses on the sofa when Mishu was nearby."* |
-| `07:10 PM` | `Keys` | `Dining Table` | `None` | *"Your car keys were last seen on the Dining Table."* |
-
-</div>
----
-
 
 ## 📸 Screenshots & Demo
 
@@ -319,7 +325,8 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Tanish&backgroundColor=b6e3f4" width="100px" alt="Tanish"/><br />
+      <img src="https://drive.google.com/uc?export=view&id=1q4xFtwDH4_JFJRPE7y1GKGvY0MAXakMZ" width="100px" alt="Team Member" />
+<br />
       <b>Tanish Aggarwal</b><br>
       <a href="https://www.linkedin.com/in/tanishaggarwal06/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -328,7 +335,8 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       Hardware & Edge Privacy
     </td>
     <td align="center" width="25%">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Chakshu&backgroundColor=c0aede" width="100px" alt="Chakshu"/><br />
+      <img src="https://drive.google.com/uc?export=view&id=1sRWP36lF635KAcx8IElS7USmAerTET16" width="100px" alt="Team Member" />
+<br />
       <b>Chakshu Arora</b><br>
       <a href="https://www.linkedin.com/in/chakshuarora716/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -337,7 +345,8 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       Episodic Memory & Agents
     </td>
     <td align="center" width="25%">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Yash&backgroundColor=ffdfbf" width="100px" alt="Yash"/><br />
+      <img src="https://drive.google.com/uc?export=view&id=1gnI2DuuPMv8jG02DJVa_SrXMJMOh87s4" width="100px" alt="Team Member" />
+<br />
       <b>Yash Goel</b><br>
       <a href="https://www.linkedin.com/in/yash-goelcs/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -346,7 +355,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       NLP & Accessibility
     </td>
     <td align="center" width="25%">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Anshuman&backgroundColor=d1ffbd" width="100px" alt="Anshuman"/><br />
+      <img src="https://drive.google.com/uc?export=view&id=198uqapZ9weDS0HqTCQpTF2tX4nEoPclQ" width="100px" alt="Profile Image" /><br />
       <b>Anshuman Dutta</b><br>
       <a href="https://www.linkedin.com/in/anshuman-dutta-b62b37339/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
