@@ -1,332 +1,164 @@
-# 🧠 SAHAYAK  
-## An AI-Powered External Memory Companion  
-### (Problem Statement 7: IoT & Automation)
+<div align="center">
+
+# 🧠 SAHAYAK
+### An AI-Powered External Memory Companion
+#### *"Your External Hippocampus"*
+
+![Project Status](https://img.shields.io/badge/Status-Prototype-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Python](https://img.shields.io/badge/Built_With-Python_3.10-blue?style=for-the-badge&logo=python&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-IoT_&_Automation-green?style=for-the-badge)
+
+<br />
+
+## 🏆 PROBLEM STATEMENT 7: IOT & AUTOMATION
+**Hack The Winter – The Second Wave (Angry Bird Edition)** *Round 1 Submission*
+
+</div>
 
 ---
 
-## 🏫 Hackathon Details
-
-**Event:** Hack The Winter – The Second Wave (Angry Bird Edition)  
-**Organizer:** Graphic Era Hill University (GEHU), Bhimtal  
-**Round:** Round 1 Submission  
-**Domain:** IoT & Automation  
-
----
-
-## 👥 Team Details
-
-### **Team Name:** **Team Sicario**
+## 📖 Table of Contents
+- [About The Project](#-about-the-project)
+- [The Team (Sicario)](#-team-sicario)
+- [The Problem](#-the-problem)
+- [Our Solution](#-our-solution)
+- [System Architecture](#-system-architecture)
+- [Key Innovation](#-key-innovation-episodic-memory)
+- [Tech Stack](#-tech-stack)
+- [Future Roadmap](#-future-roadmap)
 
 ---
 
-### 🔹 **Tanish Aggarwal** — *Team Leader*  
-📍 **College:** Vivekananda Institute of Professional Studies (VIPS), Delhi  
-🔗 **LinkedIn:** https://www.linkedin.com/in/tanishaggarwal06/  
+## 💡 About The Project
 
-**Skills & Contributions:**  
-- Hardware selection & integration  
-- Edge AI deployment (on-device processing)  
-- System reliability, privacy & architecture design  
+**Sahayak** is not just an AI assistant; it is a **Cognitive Support System**.
 
----
+Designed for patients suffering from **Alzheimer's and Dementia**, Sahayak acts as an "External Hippocampus." It is a wearable device that continuously observes the environment, creates human-like episodic memories, and allows the user to recall information naturally using their voice.
 
-### 🔹 **Yash Goel**  
-🔗 **LinkedIn:** https://www.linkedin.com/in/yash-goelcs/  
-
-**Skills & Contributions:**  
-- Voice input/output systems  
-- Natural conversation handling  
-- Accessibility & UX through speech interfaces  
+> **User:** "Where did I keep my glasses?"  
+> **Sahayak:** "You kept your glasses on the sofa when Mishu was nearby at 6:54 PM."
 
 ---
 
-### 🔹 **Chakshu Arora**  
-🔗 **LinkedIn:** https://www.linkedin.com/in/chakshuarora716/  
+## 👥 Team Sicario
 
-**Skills & Contributions:**  
-- Episodic memory system design  
-- Memory recall intelligence  
-- AI agent orchestration  
+| Team Member | Role & Expertise | Socials |
+|:-----------|:-----------------|:-------:|
+| **Tanish Aggarwal**<br>*(Team Leader)* | **Edge Deployment & Hardware Integration**<br>System reliability, privacy architecture, Raspberry Pi integration. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/tanishaggarwal06/) |
+| **Yash Goel** | **Voice Interaction & UX**<br>Natural conversation handling, TTS/STT pipelines, Accessibility. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/yash-goelcs/) |
+| **Chakshu Arora** | **Memory Architecture**<br>Episodic memory design, Agent orchestration, Recall intelligence. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/chakshuarora716/) |
+| **Anshuman Dutta** | **Computer Vision**<br>CV pipeline design (YOLO/CLIP), Object & Person understanding. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/anshuman-dutta-b62b37339/) |
 
----
-
-### 🔹 **Anshuman Dutta**  
-🔗 **LinkedIn:** https://www.linkedin.com/in/anshuman-dutta-b62b37339/  
-
-**Skills & Contributions:**  
-- Computer Vision pipeline design  
-- Object & person understanding  
-- Memory creation logic  
+**College:** Vivekananda Institute of Professional Studies (VIPS), Delhi
 
 ---
 
-## 🧩 Problem Statement
+## 📉 The Problem
 
-### **Problem Statement 7: IoT & Automation**
+Alzheimer's is not just about forgetting data; it's about losing the **context of life**.
+1.  **Memory Loss:** Forgetting where objects (wallet, medicine) are kept.
+2.  **Object Confusion:** Inability to distinguish between safe and unsafe items.
+3.  **Social Disorientation:** Difficulty recognizing familiar faces.
 
-Alzheimer’s and dementia patients suffer from progressive **episodic memory loss**, causing them to forget:
-- Where they kept everyday objects (glasses, wallet, medicines)
-- Who they are interacting with
-- What actions they recently performed  
-
-Existing IoT and automation solutions focus on **tracking** (GPS, reminders, alarms) but fail to address the **core cognitive problem** — **loss of memory itself**.
-
-There is no system that:
-- Continuously observes the environment  
-- Understands context  
-- Builds memory like a human brain  
-- Allows recall through natural interaction  
+**Why existing tech fails:**
+* **GPS Trackers:** Only track location, not context.
+* **Reminder Apps:** Passive; they don't "see" what the user does.
+* **Smart Speakers:** They fetch data from the internet, not the user's past experiences.
 
 ---
 
-## 💡 Our Solution — **SAHAYAK**
+## 🚀 Our Solution
 
-> **Sahayak is an AI-powered, wearable, on-device cognitive assistant that acts as an “External Hippocampus” for people suffering from memory loss.**
+Sahayak solves this by implementing **On-Device Episodic Memory**.
 
-Instead of reminders or notifications, Sahayak:
-- **Observes** the environment
-- **Creates episodic memory** (WHAT + WHERE + WHEN + WHO)
-- **Recalls memories through voice interaction**
-- Works **fully on-device** for privacy and reliability
-
-Example interaction:
-> **User:** “Where are my glasses?”  
-> **Sahayak:** “You kept your glasses on the sofa when Mishu was nearby.”
+### ✅ Core Features
+* **👀 Sees:** Uses a camera to detect objects and people (YOLOv8 + CLIP).
+* **👂 Hears:** Listens to user queries via an on-device microphone (Whisper).
+* **🧠 Remembers:** Logs events in a structured memory format: `WHAT` + `WHERE` + `WHEN` + `WHO`.
+* **🗣️ Speaks:** Responds via Bone-Conduction/Speaker using natural Edge TTS.
+* **🔒 Private:** 100% Offline processing on Raspberry Pi. No cloud dependency.
 
 ---
 
-## 🧠 Core Innovation (USP)
+## ⚙️ System Architecture
 
-### ❌ Traditional AI Assistants
-- Answer from the internet  
-- No understanding of personal context  
-- No memory of user’s real life  
+Sahayak operates on a **Modular Agent-Based Design**.
 
-### ✅ **Sahayak**
-- Builds **human-like episodic memory**
-- Remembers **real experiences**
-- Answers from the user’s **own past**
-- Designed specifically for **assistive care**
+```mermaid
+graph TD
+    subgraph "Perception Layer"
+    Cam[Camera Input] --> Vision[Vision Agent (YOLO + CLIP)]
+    Mic[Mic Input] --> VoiceIn[Voice Agent (Whisper)]
+    end
 
-👉 This makes Sahayak a **cognitive AI system**, not a chatbot.
+    subgraph "Cognitive Layer (Raspberry Pi)"
+    Vision --> MemLogic{Is Object Stable?}
+    MemLogic -- Yes --> Episodic[Memory Agent (Create Memory)]
+    VoiceIn --> Query[Query Agent (Intent Detection)]
+    Query <--> Episodic
+    end
 
----
+    subgraph "Interaction Layer"
+    Episodic --> Response[Response Generation]
+    Response --> TTS[Edge TTS Output]
+    end
 
-## ⚙️ System Architecture (Hardware-Oriented)
+```
 
-### 🔹 Hardware Platform
-- **Raspberry Pi 4 / 5** (Core Processing Unit)
-- Camera Module (Vision input)
-- Microphone (Voice input)
-- Speaker / Bone-Conduction Audio (Voice output)
-- Battery / Power bank (Wearable operation)
+### The Workflow
 
-All processing is done **on-device**, ensuring:
-- Low latency
-- Offline functionality
-- Complete user privacy
-
----
-
-## 🧩 Software Architecture (Agent-Based Design)
-
-Sahayak is built using **multiple AI agents**, each handling a specific cognitive role:
-
-| Agent | Responsibility |
-|-----|---------------|
-| **Vision Agent** | Object & person detection |
-| **Memory Agent** | Episodic memory creation |
-| **Query Agent** | User intent understanding |
-| **Voice Agent** | Speech-to-Text & Text-to-Speech |
-| **Emergency Agent (Planned)** | Safety & alert handling |
+1. **Observation:** Camera captures frames; Vision Agent identifies objects and people.
+2. **Memory Formation:** If an object is stable (not moving), a memory entry is created.
+3. **Recall:** User asks a question -> Query Agent fuzzy matches keywords -> Retrieves memory -> TTS speaks the answer.
 
 ---
 
-## 🧠 Core Functional Modules (Detailed)
+## 🧠 Key Innovation: Episodic Memory
 
-### 1️⃣ Vision & Object Understanding
-- **YOLOv8** for object detection
-- **CLIP embeddings** for object identity
-- Tracks the *same object over time*
+Most AI simply retrieves static data. Sahayak builds a **timeline of experiences**.
 
----
+The **Episodic Memory Engine** stores data in this specific JSON structure:
 
-### 2️⃣ Object Identity Memory
-- Assigns a unique ID (UID) to each object
-- Prevents duplicate memory creation
-- Maintains short-term perceptual memory
+```json
+{
+  "object": "glasses",
+  "location": "sofa",
+  "time": "06:54 PM",
+  "person_nearby": "Mishu",
+  "context_sentence": "You kept your glasses on the sofa when Mishu was nearby."
+}
 
----
+```
 
-### 3️⃣ Episodic Memory Engine (CORE MODULE)
-**Episodic Memory = WHAT + WHERE + WHEN + WHO**
-
-Each memory stores:
-- Object name  
-- Location  
-- Time  
-- Nearby person  
-- Natural language sentence  
-
-This mimics **human memory formation**.
+*This mimics the human brain's way of storing "episodes" rather than just data points.*
 
 ---
 
-### 4️⃣ Memory Trigger Logic
-Memory is created only when:
-- Object is stable
-- Seen consistently
-- Not moving  
+## 🛠 Tech Stack
 
-This avoids false or noisy memories.
-
----
-
-### 5️⃣ Voice Interaction
-- **Whisper (on-device)** for Speech-to-Text
-- **Edge Neural TTS** for natural voice output
-- Supports continuous conversation
+| Domain | Technology Used | Purpose |
+| --- | --- | --- |
+| **Hardware** | Raspberry Pi 4/5 | Main Compute Unit (Edge AI) |
+| **Vision** | YOLOv8 + CLIP | Object Detection & Semantic Understanding |
+| **Voice (Input)** | OpenAI Whisper (Base) | Speech-to-Text (Offline) |
+| **Voice (Output)** | Edge Neural TTS | Natural sounding Text-to-Speech |
+| **Logic** | Python | Main orchestration language |
+| **Memory** | JSON / Vector Store | Storing episodic events |
 
 ---
 
-### 6️⃣ Query & Recall Intelligence
-- Intent detection (Where / Who / This is)
-- Fuzzy keyword matching (glasses ↔ classes)
-- Searches episodic memory and responds naturally
+## 🔮 Future Roadmap
+
+* [ ] **Fall Detection:** Using the camera to detect sudden falls.
+* [ ] **Caregiver App:** A mobile dashboard for family members to monitor safety.
+* [ ] **Multilingual Support:** Adding Hindi and regional language support.
+* [ ] **Emotion Detection:** Analyzing voice tone to detect panic or anxiety.
 
 ---
 
-## 🔄 Complete Workflow
+<div align="center">
 
-### 🟢 Memory Creation Flow
-    Camera → Object Detection → Object Identity → Stability Check → Episodic Memory Creation → Stored
+Made with ❤️ by **Team Sicario** for **Hack The Winter**
 
-### 🔵 Memory Recall Flow
-    User Voice → Speech to Text → Intent Detection → Memory Search → Answer Generation → Voice Output
-
-### SYSTEM ARCHITECTURE DIAGRAM
-
-┌──────────────────────────────────────────────────────────────┐
-│                        USER (Patient)                        │
-│                                                              │
-│  🎤 Voice Queries                 👁️ Real-world Environment │
-│  (Speech Input)                   (Objects & People)        │
-└───────────────┬───────────────────────────────┬─────────────┘
-                │                               │
-                ▼                               ▼
-┌──────────────────────────┐     ┌────────────────────────────┐
-│        MICROPHONE         │     │        CAMERA MODULE        │
-│      (Voice Input)        │     │    (Visual Perception)      │
-└───────────────┬──────────┘     └───────────────┬────────────┘
-                │                                │
-                ▼                                ▼
-┌──────────────────────────────────────────────────────────────┐
-│             RASPBERRY PI – EDGE AI CORE                       │
-│        (All AI Processing Happens On-Device)                  │
-│                                                              │
-│  ┌────────────────────────────────────────────────────────┐  │
-│  │                    VOICE AGENT                         │  │
-│  │  • Whisper (Speech → Text)                              │  │
-│  │  • Edge Neural TTS (Text → Speech)                      │  │
-│  └───────────────┬────────────────────────────────────────┘  │
-│                  │                                           │
-│  ┌───────────────▼────────────────────────────────────────┐  │
-│  │                    QUERY AGENT                         │  │
-│  │  • Intent Detection                                    │  │
-│  │  • Fuzzy Keyword Matching                               │  │
-│  │  • Natural Language Understanding                       │  │
-│  └───────────────┬────────────────────────────────────────┘  │
-│                  │                                           │
-│  ┌───────────────▼────────────────────────────────────────┐  │
-│  │                   MEMORY AGENT                         │  │
-│  │  • Episodic Memory Engine                               │  │
-│  │  • WHAT + WHERE + WHEN + WHO                            │  │
-│  │  • Human-like Memory Recall                             │  │
-│  └───────────────┬────────────────────────────────────────┘  │
-│                  │                                           │
-│  ┌───────────────▼────────────────────────────────────────┐  │
-│  │                   VISION AGENT                         │  │
-│  │  • YOLOv8 – Object Detection                            │  │
-│  │  • CLIP – Object Identity Memory                        │  │
-│  │  • Face Recognition – Person Awareness                  │  │
-│  └────────────────────────────────────────────────────────┘  │
-│                                                              │
-│  ┌────────────────────────────────────────────────────────┐  │
-│  │        EMERGENCY & SAFETY AGENT (Planned)               │  │
-│  │  • Panic / Fall Detection                               │  │
-│  │  • Inactivity Monitoring                                │  │
-│  │  • Caregiver Alert System                               │  │
-│  └────────────────────────────────────────────────────────┘  │
-└──────────────────────────────┬───────────────────────────────┘
-                               │
-                               ▼
-┌──────────────────────────────────────────────────────────────┐
-│        SPEAKER / BONE-CONDUCTION AUDIO OUTPUT                │
-│            (Natural Voice Response to User)                 │
-└──────────────────────────────────────────────────────────────┘
-
-
-
-## 🧠 Key Features
-
-- Human-like episodic memory
-- Fully on-device AI (privacy-first)
-- Voice-based interaction
-- Object & person awareness
-- Assistive, not intrusive
-- Designed for elderly & cognitively impaired users
-
----
-
-## 🚨 Emergency & Safety (Future Scope)
-- Fall detection
-- Panic voice detection
-- Inactivity monitoring
-- Automatic caregiver alerts
-
----
-
-## 📈 Advantages
-
-- No internet dependency
-- Low latency responses
-- Personalized memory recall
-- Scalable wearable design
-- Strong real-world impact
-
----
-
-## ⚠️ Limitations
-
-- Raspberry Pi compute constraints
-- Performance depends on environment
-- Requires calibration per user
-
----
-
-## 🚀 Future Enhancements
-
-- Persistent memory database
-- Bone-conduction audio
-- Multi-language support
-- Caregiver companion mobile app
-- Cloud sync (optional)
-- Emotion-aware responses
-
----
-
-## 🏁 Conclusion
-
-**Sahayak is not just an AI assistant — it is a cognitive support system.**
-
-By recreating episodic memory using **on-device AI, IoT, and automation**, Sahayak empowers Alzheimer’s and dementia patients to live with:
-- Confidence  
-- Independence  
-- Dignity  
-
----
-
-## 
-
-
-
+</div>
