@@ -209,20 +209,20 @@ This avoids false or noisy memories.
 ┌──────────────────────────────────────────────────────────────┐
 │                        USER (Patient)                        │
 │                                                              │
-│   🎤 Voice Queries              👁️ Real-world Environment   │
-│   (Speech Input)                (Objects & People)          │
-└───────────────┬───────────────────────────┬─────────────────┘
-                │                           │
-                ▼                           ▼
-┌──────────────────────────┐   ┌──────────────────────────────┐
-│        MICROPHONE         │   │        CAMERA MODULE         │
-│     (Voice Input)         │   │   (Visual Perception)        │
-└───────────────┬──────────┘   └───────────────┬──────────────┘
-                │                              │
-                ▼                              ▼
+│  🎤 Voice Queries                 👁️ Real-world Environment │
+│  (Speech Input)                   (Objects & People)        │
+└───────────────┬───────────────────────────────┬─────────────┘
+                │                               │
+                ▼                               ▼
+┌──────────────────────────┐     ┌────────────────────────────┐
+│        MICROPHONE         │     │        CAMERA MODULE        │
+│      (Voice Input)        │     │    (Visual Perception)      │
+└───────────────┬──────────┘     └───────────────┬────────────┘
+                │                                │
+                ▼                                ▼
 ┌──────────────────────────────────────────────────────────────┐
-│               RASPBERRY PI (EDGE AI CORE)                    │
-│           (All AI Processing Happens On-Device)              │
+│             RASPBERRY PI – EDGE AI CORE                       │
+│        (All AI Processing Happens On-Device)                  │
 │                                                              │
 │  ┌────────────────────────────────────────────────────────┐  │
 │  │                    VOICE AGENT                         │  │
@@ -252,7 +252,7 @@ This avoids false or noisy memories.
 │  └────────────────────────────────────────────────────────┘  │
 │                                                              │
 │  ┌────────────────────────────────────────────────────────┐  │
-│  │          EMERGENCY & SAFETY AGENT (Planned)             │  │
+│  │        EMERGENCY & SAFETY AGENT (Planned)               │  │
 │  │  • Panic / Fall Detection                               │  │
 │  │  • Inactivity Monitoring                                │  │
 │  │  • Caregiver Alert System                               │  │
@@ -264,6 +264,7 @@ This avoids false or noisy memories.
 │        SPEAKER / BONE-CONDUCTION AUDIO OUTPUT                │
 │            (Natural Voice Response to User)                 │
 └──────────────────────────────────────────────────────────────┘
+
 
 
 ## 🧠 Key Features
