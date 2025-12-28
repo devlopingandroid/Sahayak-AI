@@ -1,163 +1,184 @@
 <div align="center">
+  <br />
+  <a href="https://github.com/YourUsername/Sahayak">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=250&section=header&text=SAHAYAK&fontSize=90&animation=fadeIn&fontAlignY=38&desc=The%20External%20Hippocampus%20for%20Dementia%20Care&descAlignY=55&descAlign=50" alt="Sahayak Banner" width="100%"/>
+  </a>
+  
+  <br />
+  
+  <p align="center">
+    <img src="https://img.shields.io/badge/Round-1_Submission-FF5722?style=for-the-badge&logo=firebase&logoColor=white" />
+    <img src="https://img.shields.io/badge/Domain-IoT_%26_Automation-7E57C2?style=for-the-badge&logo=iot&logoColor=white" />
+    <img src="https://img.shields.io/badge/Device-Raspberry_Pi_5-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white" />
+    <img src="https://img.shields.io/badge/AI-Edge_Computing-00C853?style=for-the-badge&logo=nvidia&logoColor=white" />
+  </p>
 
-# 🧠 SAHAYAK
-### An AI-Powered External Memory Companion
-#### *"Your External Hippocampus"*
+  <h3 align="center">✨ Hack The Winter: The Second Wave (Angry Bird Edition) ✨</h3>
+</div>
 
-![Project Status](https://img.shields.io/badge/Status-Prototype-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Python](https://img.shields.io/badge/Built_With-Python_3.10-blue?style=for-the-badge&logo=python&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-IoT_&_Automation-green?style=for-the-badge)
+---
 
-<br />
+<details>
+  <summary><b>📂 Table of Contents (Click to Expand)</b></summary>
+  <br />
+  
+  1. [The Vision](#-the-vision)
+  2. [Problem Statement](#-the-silent-epidemic)
+  3. [Solution Architecture](#-solution-architecture)
+  4. [Episodic Memory Engine](#-the-core-innovation-episodic-memory)
+  5. [Team Sicario](#-meet-team-sicario)
+  6. [Tech Stack](#-tech-arsenal)
+  7. [Setup & Installation](#-installation)
+</details>
 
-## 🏆 PROBLEM STATEMENT 7: IOT & AUTOMATION
-**Hack The Winter – The Second Wave (Angry Bird Edition)** *Round 1 Submission*
+---
+
+## 🔮 The Vision
+
+> *"Memory is the diary that we all carry about with us." — Oscar Wilde*
+
+But what happens when that diary starts losing pages? 
+
+**SAHAYAK** is a cognitive support ecosystem designed to restore independence to Alzheimer's patients. Unlike passive trackers, Sahayak is an **active observer**. It "sees" what you see, "hears" what you hear, and builds a **Digital Episodic Memory** to answer questions about your daily life.
+
+---
+
+## 📉 The Silent Epidemic
+
+
+
+Alzheimer's and Dementia strip away a person's ability to recall the **Context of Life**.
+
+| 🚫 The Struggle | ❌ Existing "Smart" Tech | ✅ The Sahayak Way |
+| :--- | :--- | :--- |
+| **"Where is my wallet?"** | **GPS Trackers:** Only show map location. | **Visual Memory:** "You left it on the kitchen counter." |
+| **"Who is this person?"** | **CCTV:** Passive recording. | **Face Rec:** "This is your grandson, Aryan." |
+| **"Did I eat medicine?"** | **Alarms:** Ring blindly. | **Action Log:** "Yes, you took the blue pill at 2 PM." |
+
+---
+
+## ⚙️ Solution Architecture
+
+We have engineered a **Modular Agent System** that runs entirely offline on the Edge.
+
+
+
+```mermaid
+graph LR
+    subgraph Senses [Sense]
+      A[👁️ Camera] -->|Frames| C(Vision Agent)
+      B[👂 Mic] -->|Audio| D(Voice Agent)
+    end
+
+    subgraph Brain [Cognitive Core]
+      C -->|Objects + People| E{Memory Engine}
+      D -->|User Query| F(Query Agent)
+      F <-->|Recall| E
+    end
+
+    subgraph Action [Act]
+      E -->|Contextual Answer| G[🔊 Speech Output]
+    end
+    
+    style Senses fill:#f9f,stroke:#333,stroke-width:2px
+    style Brain fill:#bbf,stroke:#333,stroke-width:2px
+    style Action fill:#bfb,stroke:#333,stroke-width:2px
+
+```
+
+---
+
+## 🧬 The Core Innovation: Episodic Memory
+
+Standard AI creates data. **Sahayak creates Stories.**
+We utilize a custom JSON structure to mimic the human brain's **"Event Indexing"**.
+
+<div align="center">
+
+| 🕰️ Time | 📦 Object | 📍 Location | 👤 Person | 📝 Generated Memory |
+| --- | --- | --- | --- | --- |
+| `06:54 PM` | `Glasses` | `Sofa` | `Mishu` | *"You kept your glasses on the sofa when Mishu was nearby."* |
+| `07:10 PM` | `Keys` | `Dining Table` | `None` | *"Your car keys were last seen on the Dining Table."* |
 
 </div>
 
 ---
 
-## 📖 Table of Contents
-- [About The Project](#-about-the-project)
-- [The Team (Sicario)](#-team-sicario)
-- [The Problem](#-the-problem)
-- [Our Solution](#-our-solution)
-- [System Architecture](#-system-architecture)
-- [Key Innovation](#-key-innovation-episodic-memory)
-- [Tech Stack](#-tech-stack)
-- [Future Roadmap](#-future-roadmap)
+## ⚔️ Meet Team Sicario
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="25%">
+<a href="https://www.linkedin.com/in/tanishaggarwal06/">
+<img src="https://www.google.com/search?q=https://api.dicebear.com/7.x/avataaars/svg%3Fseed%3DTanish%26backgroundColor%3Db6e3f4" width="100px;" alt=""/><br />
+<b>Tanish Aggarwal</b>
+</a><br />
+👑 <i>Team Lead & Edge Architect</i><br />
+Hardware Integration & Privacy
+</td>
+<td align="center" width="25%">
+<a href="https://www.linkedin.com/in/chakshuarora716/">
+<img src="https://www.google.com/search?q=https://api.dicebear.com/7.x/avataaars/svg%3Fseed%3DChakshu%26backgroundColor%3Dc0aede" width="100px;" alt=""/><br />
+<b>Chakshu Arora</b>
+</a><br />
+🧠 <i>Brain Architect</i><br />
+Episodic Memory & Agents
+</td>
+<td align="center" width="25%">
+<a href="https://www.linkedin.com/in/yash-goelcs/">
+<img src="https://www.google.com/search?q=https://api.dicebear.com/7.x/avataaars/svg%3Fseed%3DYash%26backgroundColor%3Dffdfbf" width="100px;" alt=""/><br />
+<b>Yash Goel</b>
+</a><br />
+🗣️ <i>Voice Engineer</i><br />
+NLP & Accessibility
+</td>
+<td align="center" width="25%">
+<a href="https://www.linkedin.com/in/anshuman-dutta-b62b37339/">
+<img src="https://www.google.com/search?q=https://api.dicebear.com/7.x/avataaars/svg%3Fseed%3DAnshuman%26backgroundColor%3Dd1ffbd" width="100px;" alt=""/><br />
+<b>Anshuman Dutta</b>
+</a><br />
+👁️ <i>Visionary</i><br />
+Computer Vision (YOLO/CLIP)
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
-## 💡 About The Project
+## 🛠 Tech Arsenal
 
-**Sahayak** is not just an AI assistant; it is a **Cognitive Support System**.
-
-Designed for patients suffering from **Alzheimer's and Dementia**, Sahayak acts as an "External Hippocampus." It is a wearable device that continuously observes the environment, creates human-like episodic memories, and allows the user to recall information naturally using their voice.
-
-> **User:** "Where did I keep my glasses?"  
-> **Sahayak:** "You kept your glasses on the sofa when Mishu was nearby at 6:54 PM."
-
----
-
-## 👥 Team Sicario
-
-| Team Member | Role & Expertise | Socials |
-|:-----------|:-----------------|:-------:|
-| **Tanish Aggarwal**<br>*(Team Leader)* | **Edge Deployment & Hardware Integration**<br>System reliability, privacy architecture, Raspberry Pi integration. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/tanishaggarwal06/) |
-| **Yash Goel** | **Voice Interaction & UX**<br>Natural conversation handling, TTS/STT pipelines, Accessibility. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/yash-goelcs/) |
-| **Chakshu Arora** | **Memory Architecture**<br>Episodic memory design, Agent orchestration, Recall intelligence. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/chakshuarora716/) |
-| **Anshuman Dutta** | **Computer Vision**<br>CV pipeline design (YOLO/CLIP), Object & Person understanding. | [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/anshuman-dutta-b62b37339/) |
-
-**College:** Vivekananda Institute of Professional Studies (VIPS), Delhi
-
----
-
-## 📉 The Problem
-
-Alzheimer's is not just about forgetting data; it's about losing the **context of life**.
-1.  **Memory Loss:** Forgetting where objects (wallet, medicine) are kept.
-2.  **Object Confusion:** Inability to distinguish between safe and unsafe items.
-3.  **Social Disorientation:** Difficulty recognizing familiar faces.
-
-**Why existing tech fails:**
-* **GPS Trackers:** Only track location, not context.
-* **Reminder Apps:** Passive; they don't "see" what the user does.
-* **Smart Speakers:** They fetch data from the internet, not the user's past experiences.
-
----
-
-## 🚀 Our Solution
-
-Sahayak solves this by implementing **On-Device Episodic Memory**.
-
-### ✅ Core Features
-* **👀 Sees:** Uses a camera to detect objects and people (YOLOv8 + CLIP).
-* **👂 Hears:** Listens to user queries via an on-device microphone (Whisper).
-* **🧠 Remembers:** Logs events in a structured memory format: `WHAT` + `WHERE` + `WHEN` + `WHO`.
-* **🗣️ Speaks:** Responds via Bone-Conduction/Speaker using natural Edge TTS.
-* **🔒 Private:** 100% Offline processing on Raspberry Pi. No cloud dependency.
-
----
-
-## ⚙️ System Architecture
-
-Sahayak operates on a **Modular Agent-Based Design**
-
-```mermaid
-graph TD
-    subgraph Perception ["Perception Layer"]
-    Cam["Camera Input"] --> Vision["Vision Agent (YOLO + CLIP)"]
-    Mic["Mic Input"] --> VoiceIn["Voice Agent (Whisper)"]
-    end
-
-    subgraph Cognitive ["Cognitive Layer (Raspberry Pi)"]
-    Vision --> MemLogic{"Is Object Stable?"}
-    MemLogic -- Yes --> Episodic["Memory Agent (Create Memory)"]
-    VoiceIn --> Query["Query Agent (Intent Detection)"]
-    Query <--> Episodic
-    end
-
-    subgraph Interaction ["Interaction Layer"]
-    Episodic --> Response["Response Generation"]
-    Response --> TTS["Edge TTS Output"]
-    end
-```
-
-### The Workflow
-
-1. **Observation:** Camera captures frames; Vision Agent identifies objects and people.
-2. **Memory Formation:** If an object is stable (not moving), a memory entry is created.
-3. **Recall:** User asks a question -> Query Agent fuzzy matches keywords -> Retrieves memory -> TTS speaks the answer.
-
----
-
-## 🧠 Key Innovation: Episodic Memory
-
-Most AI simply retrieves static data. Sahayak builds a **timeline of experiences**.
-
-The **Episodic Memory Engine** stores data in this specific JSON structure:
-
-```json
-{
-  "object": "glasses",
-  "location": "sofa",
-  "time": "06:54 PM",
-  "person_nearby": "Mishu",
-  "context_sentence": "You kept your glasses on the sofa when Mishu was nearby."
-}
-
-```
-
-*This mimics the human brain's way of storing "episodes" rather than just data points.*
-
----
-
-## 🛠 Tech Stack
-
-| Domain | Technology Used | Purpose |
+| Component | Tech Choice | Why? |
 | --- | --- | --- |
-| **Hardware** | Raspberry Pi 4/5 | Main Compute Unit (Edge AI) |
-| **Vision** | YOLOv8 + CLIP | Object Detection & Semantic Understanding |
-| **Voice (Input)** | OpenAI Whisper (Base) | Speech-to-Text (Offline) |
-| **Voice (Output)** | Edge Neural TTS | Natural sounding Text-to-Speech |
-| **Logic** | Python | Main orchestration language |
-| **Memory** | JSON / Vector Store | Storing episodic events |
+| **Brain** |  | Powerful enough for On-Device AI. |
+| **Eyes** |  | Real-time detection + Semantic understanding. |
+| **Ears** |  | Best-in-class offline speech recognition. |
+| **Voice** |  | Natural, non-robotic responses. |
 
 ---
 
-## 🔮 Future Roadmap
+## 🗺️ Roadmap to Impact
 
-* [ ] **Fall Detection:** Using the camera to detect sudden falls.
-* [ ] **Caregiver App:** A mobile dashboard for family members to monitor safety.
-* [ ] **Multilingual Support:** Adding Hindi and regional language support.
-* [ ] **Emotion Detection:** Analyzing voice tone to detect panic or anxiety.
+* [x] **Prototype:** Core Vision & Memory loop active.
+* [x] **Voice Interface:** Full duplex conversation.
+* [ ] **Phase 2:** Fall Detection & Distress Signals. 🚨
+* [ ] **Phase 3:** Mobile App for Caregiver Monitoring. 📱
+* [ ] **Phase 4:** Sentiment Analysis for Anxiety Detection. ❤️
 
 ---
 
 <div align="center">
 
-Made with ❤️ by **Team Sicario** for **Hack The Winter**
 
+
+
+
+<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3D0:00C9FF,100:92FE9D%26height%3D100%26section%3Dfooter" width="100%">
+
+
+
+
+
+<i>Crafted with Empathy by Team Sicario for Hack The Winter ❄️</i>
 </div>
