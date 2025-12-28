@@ -83,27 +83,26 @@ Sahayak solves this by implementing **On-Device Episodic Memory**.
 
 ## ⚙️ System Architecture
 
-Sahayak operates on a **Modular Agent-Based Design**.
+Sahayak operates on a **Modular Agent-Based Design**
 
 ```mermaid
 graph TD
-    subgraph "Perception Layer"
-    Cam[Camera Input] --> Vision[Vision Agent (YOLO + CLIP)]
-    Mic[Mic Input] --> VoiceIn[Voice Agent (Whisper)]
+    subgraph Perception ["Perception Layer"]
+    Cam["Camera Input"] --> Vision["Vision Agent (YOLO + CLIP)"]
+    Mic["Mic Input"] --> VoiceIn["Voice Agent (Whisper)"]
     end
 
-    subgraph "Cognitive Layer (Raspberry Pi)"
-    Vision --> MemLogic{Is Object Stable?}
-    MemLogic -- Yes --> Episodic[Memory Agent (Create Memory)]
-    VoiceIn --> Query[Query Agent (Intent Detection)]
+    subgraph Cognitive ["Cognitive Layer (Raspberry Pi)"]
+    Vision --> MemLogic{"Is Object Stable?"}
+    MemLogic -- Yes --> Episodic["Memory Agent (Create Memory)"]
+    VoiceIn --> Query["Query Agent (Intent Detection)"]
     Query <--> Episodic
     end
 
-    subgraph "Interaction Layer"
-    Episodic --> Response[Response Generation]
-    Response --> TTS[Edge TTS Output]
+    subgraph Interaction ["Interaction Layer"]
+    Episodic --> Response["Response Generation"]
+    Response --> TTS["Edge TTS Output"]
     end
-
 ```
 
 ### The Workflow
