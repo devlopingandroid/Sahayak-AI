@@ -325,12 +325,12 @@ Here is Sahayak in action, processing the real world in real-time.
     <tr>
       <td align="center">
         <b>👁️ Computer Vision View</b><br>
-        <img src="https://via.placeholder.com/400x200?text=Paste+YOLO+Detection+Image+Here" alt="YOLO Detection" width="400"/>
+        <img src="sahayak/Detect.jpeg" alt="YOLO Detection" width="400"/>
         <br><i>YOLOv8 detecting 'cup' and 'keys'</i>
       </td>
       <td align="center">
         <b>🧠 Terminal / Memory Log</b><br>
-        <img src="https://via.placeholder.com/400x200?text=Paste+Terminal+Logs+Here" alt="Terminal Output" width="400"/>
+        <img src=sahayak/OUTPUT.jpeg alt="Terminal Output" width="400"/>
         <br><i>System creating JSON memory logs</i>
       </td>
     </tr>
