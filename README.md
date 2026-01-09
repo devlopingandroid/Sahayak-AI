@@ -444,3 +444,6 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
     <b>Hack The Winter (Round 1)</b>
   </p>
 </div>
+
+## Development Workflow
+All features are developed using feature branches and merged via Pull Requests.
