@@ -1,0 +1,920 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.4
+2 info using node@v22.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\.npmrc
+5 silly config load:file:C:\Users\hp\.npmrc
+6 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-router-dom
+8 verbose argv "install" "react-router-dom"
+9 verbose logfile logs-max:10 dir:D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-01-11T14_45_00_983Z-
+10 verbose logfile D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-01-11T14_45_00_983Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest react-router-dom@^6.30.1
+15 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/react-router-dom 836ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:undefined disposed:false
+19 silly fetch manifest react@^18.3.1
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 610ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+23 silly fetch manifest react-dom@^18.3.1
+24 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react-dom 523ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+27 silly placeDep ROOT react-router-dom@6.30.3 REPLACE for: vite_react_shadcn_ts@0.0.0 want: ^6.30.1
+28 silly fetch manifest react-router@6.30.3
+29 silly packumentCache full:https://registry.npmjs.org/react-router cache-miss
+30 silly fetch manifest @remix-run/router@1.23.2
+31 silly packumentCache full:https://registry.npmjs.org/@remix-run%2frouter cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/react-router 558ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/react-router set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/@remix-run%2frouter 3944ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/@remix-run%2frouter set size:undefined disposed:false
+36 silly fetch manifest react@>=16.8
+37 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+38 http cache https://registry.npmjs.org/react 23ms (cache hit)
+39 silly packumentCache full:https://registry.npmjs.org/react set size:6366584 disposed:false
+40 silly placeDep ROOT @remix-run/router@1.23.2 OK for: react-router-dom@6.30.3 want: 1.23.2
+41 silly placeDep ROOT react-router@6.30.3 OK for: react-router-dom@6.30.3 want: 6.30.3
+42 silly reify mark retired [
+42 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\react-router'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\react-router-dom'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@remix-run\\router'
+44 silly reify ]
+45 silly reify moves {
+45 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\react-router': 'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\.react-router-eoQDnoml',
+45 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\react-router-dom': 'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\.react-router-dom-6mFxflbC',
+45 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@remix-run\\router': 'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@remix-run\\.router-JwKUqOb3'
+45 silly reify }
+46 silly audit bulk request {
+46 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+46 silly audit   '@babel/runtime': [ '7.28.2' ],
+46 silly audit   '@esbuild/aix-ppc64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/android-arm': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/android-arm64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/android-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/darwin-arm64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/darwin-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/freebsd-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-arm': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-arm64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-ia32': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-loong64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-mips64el': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-ppc64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-riscv64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-s390x': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/linux-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/netbsd-arm64': [ '0.25.0' ],
+46 silly audit   '@esbuild/netbsd-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/openbsd-arm64': [ '0.25.0' ],
+46 silly audit   '@esbuild/openbsd-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/sunos-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/win32-arm64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/win32-ia32': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@esbuild/win32-x64': [ '0.21.5', '0.25.0' ],
+46 silly audit   '@eslint-community/eslint-utils': [ '4.7.0' ],
+46 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+46 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+46 silly audit   '@eslint/config-array': [ '0.21.0' ],
+46 silly audit   '@eslint/config-helpers': [ '0.3.0' ],
+46 silly audit   '@eslint/core': [ '0.15.1' ],
+46 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+46 silly audit   globals: [ '14.0.0', '15.15.0' ],
+46 silly audit   '@eslint/js': [ '9.32.0' ],
+46 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+46 silly audit   '@eslint/plugin-kit': [ '0.3.4' ],
+46 silly audit   '@floating-ui/core': [ '1.7.2' ],
+46 silly audit   '@floating-ui/dom': [ '1.7.2' ],
+46 silly audit   '@floating-ui/react-dom': [ '2.1.4' ],
+46 silly audit   '@floating-ui/utils': [ '0.2.10' ],
+46 silly audit   '@hookform/resolvers': [ '3.10.0' ],
+46 silly audit   '@humanfs/core': [ '0.19.1' ],
+46 silly audit   '@humanfs/node': [ '0.16.6' ],
+46 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.3' ],
+46 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+46 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+46 silly audit   '@jridgewell/gen-mapping': [ '0.3.5' ],
+46 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+46 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+46 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+46 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+46 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+46 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+46 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+46 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+46 silly audit   '@radix-ui/number': [ '1.1.1' ],
+46 silly audit   '@radix-ui/primitive': [ '1.1.2' ],
+46 silly audit   '@radix-ui/react-accordion': [ '1.2.11' ],
+46 silly audit   '@radix-ui/react-alert-dialog': [ '1.1.14' ],
+46 silly audit   '@radix-ui/react-arrow': [ '1.1.7' ],
+46 silly audit   '@radix-ui/react-aspect-ratio': [ '1.1.7' ],
+46 silly audit   '@radix-ui/react-avatar': [ '1.1.10' ],
+46 silly audit   '@radix-ui/react-checkbox': [ '1.3.2' ],
+46 silly audit   '@radix-ui/react-collapsible': [ '1.1.11' ],
+46 silly audit   '@radix-ui/react-collection': [ '1.1.7' ],
+46 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+46 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+46 silly audit   '@radix-ui/react-context-menu': [ '2.2.15' ],
+46 silly audit   '@radix-ui/react-dialog': [ '1.1.14' ],
+46 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.10' ],
+46 silly audit   '@radix-ui/react-dropdown-menu': [ '2.1.15' ],
+46 silly audit   '@radix-ui/react-focus-guards': [ '1.1.2' ],
+46 silly audit   '@radix-ui/react-focus-scope': [ '1.1.7' ],
+46 silly audit   '@radix-ui/react-hover-card': [ '1.1.14' ],
+46 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-label': [ '2.1.7' ],
+46 silly audit   '@radix-ui/react-menu': [ '2.1.15' ],
+46 silly audit   '@radix-ui/react-menubar': [ '1.1.15' ],
+46 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.13' ],
+46 silly audit   '@radix-ui/react-popover': [ '1.1.14' ],
+46 silly audit   '@radix-ui/react-popper': [ '1.2.7' ],
+46 silly audit   '@radix-ui/react-portal': [ '1.1.9' ],
+46 silly audit   '@radix-ui/react-presence': [ '1.1.4' ],
+46 silly audit   '@radix-ui/react-primitive': [ '2.1.3' ],
+46 silly audit   '@radix-ui/react-progress': [ '1.1.7' ],
+46 silly audit   '@radix-ui/react-radio-group': [ '1.3.7' ],
+46 silly audit   '@radix-ui/react-roving-focus': [ '1.1.10' ],
+46 silly audit   '@radix-ui/react-scroll-area': [ '1.2.9' ],
+46 silly audit   '@radix-ui/react-select': [ '2.2.5' ],
+46 silly audit   '@radix-ui/react-separator': [ '1.1.7' ],
+46 silly audit   '@radix-ui/react-slider': [ '1.3.5' ],
+46 silly audit   '@radix-ui/react-slot': [ '1.2.3' ],
+46 silly audit   '@radix-ui/react-switch': [ '1.2.5' ],
+46 silly audit   '@radix-ui/react-tabs': [ '1.1.12' ],
+46 silly audit   '@radix-ui/react-toast': [ '1.2.14' ],
+46 silly audit   '@radix-ui/react-toggle': [ '1.1.9' ],
+46 silly audit   '@radix-ui/react-toggle-group': [ '1.1.10' ],
+46 silly audit   '@radix-ui/react-tooltip': [ '1.2.7' ],
+46 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+46 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+46 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-use-is-hydrated': [ '0.1.0' ],
+46 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+46 silly audit   '@radix-ui/react-visually-hidden': [ '1.2.3' ],
+46 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+46 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+46 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-android-arm64': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-darwin-arm64': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-darwin-x64': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.24.0' ],
+46 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.24.0' ],
+46 silly audit   '@swc/core': [ '1.13.2' ],
+46 silly audit   '@swc/core-darwin-arm64': [ '1.13.2' ],
+46 silly audit   '@swc/core-darwin-x64': [ '1.13.2' ],
+46 silly audit   '@swc/core-linux-arm-gnueabihf': [ '1.13.2' ],
+46 silly audit   '@swc/core-linux-arm64-gnu': [ '1.13.2' ],
+46 silly audit   '@swc/core-linux-arm64-musl': [ '1.13.2' ],
+46 silly audit   '@swc/core-linux-x64-gnu': [ '1.13.2' ],
+46 silly audit   '@swc/core-linux-x64-musl': [ '1.13.2' ],
+46 silly audit   '@swc/core-win32-arm64-msvc': [ '1.13.2' ],
+46 silly audit   '@swc/core-win32-ia32-msvc': [ '1.13.2' ],
+46 silly audit   '@swc/core-win32-x64-msvc': [ '1.13.2' ],
+46 silly audit   '@swc/counter': [ '0.1.3' ],
+46 silly audit   '@swc/types': [ '0.1.23' ],
+46 silly audit   '@tailwindcss/typography': [ '0.5.16' ],
+46 silly audit   'postcss-selector-parser': [ '6.0.10', '6.1.2' ],
+46 silly audit   '@tanstack/query-core': [ '5.83.0' ],
+46 silly audit   '@tanstack/react-query': [ '5.83.0' ],
+46 silly audit   '@types/d3-array': [ '3.2.1' ],
+46 silly audit   '@types/d3-color': [ '3.1.3' ],
+46 silly audit   '@types/d3-ease': [ '3.0.2' ],
+46 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+46 silly audit   '@types/d3-path': [ '3.1.0' ],
+46 silly audit   '@types/d3-scale': [ '4.0.8' ],
+46 silly audit   '@types/d3-shape': [ '3.1.6' ],
+46 silly audit   '@types/d3-time': [ '3.0.3' ],
+46 silly audit   '@types/d3-timer': [ '3.0.2' ],
+46 silly audit   '@types/estree': [ '1.0.6' ],
+46 silly audit   '@types/json-schema': [ '7.0.15' ],
+46 silly audit   '@types/node': [ '22.16.5' ],
+46 silly audit   '@types/prop-types': [ '15.7.13' ],
+46 silly audit   '@types/react': [ '18.3.23' ],
+46 silly audit   '@types/react-dom': [ '18.3.7' ],
+46 silly audit   '@typescript-eslint/eslint-plugin': [ '8.38.0' ],
+46 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+46 silly audit   '@typescript-eslint/parser': [ '8.38.0' ],
+46 silly audit   '@typescript-eslint/project-service': [ '8.38.0' ],
+46 silly audit   '@typescript-eslint/scope-manager': [ '8.38.0' ],
+46 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.38.0' ],
+46 silly audit   '@typescript-eslint/type-utils': [ '8.38.0' ],
+46 silly audit   '@typescript-eslint/types': [ '8.38.0' ],
+46 silly audit   '@typescript-eslint/typescript-estree': [ '8.38.0' ],
+46 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+46 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+46 silly audit   '@typescript-eslint/utils': [ '8.38.0' ],
+46 silly audit   '@typescript-eslint/visitor-keys': [ '8.38.0' ],
+46 silly audit   '@vitejs/plugin-react-swc': [ '3.11.0' ],
+46 silly audit   acorn: [ '8.15.0' ],
+46 silly audit   'acorn-jsx': [ '5.3.2' ],
+46 silly audit   ajv: [ '6.12.6' ],
+46 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+46 silly audit   'ansi-styles': [ '4.3.0', '6.2.1' ],
+46 silly audit   'any-promise': [ '1.3.0' ],
+46 silly audit   anymatch: [ '3.1.3' ],
+46 silly audit   arg: [ '5.0.2' ],
+46 silly audit   argparse: [ '2.0.1' ],
+46 silly audit   'aria-hidden': [ '1.2.4' ],
+46 silly audit   autoprefixer: [ '10.4.21' ],
+46 silly audit   'balanced-match': [ '1.0.2' ],
+46 silly audit   'binary-extensions': [ '2.3.0' ],
+46 silly audit   braces: [ '3.0.3' ],
+46 silly audit   browserslist: [ '4.25.1' ],
+46 silly audit   callsites: [ '3.1.0' ],
+46 silly audit   'camelcase-css': [ '2.0.1' ],
+46 silly audit   'caniuse-lite': [ '1.0.30001727' ],
+46 silly audit   chalk: [ '4.1.2' ],
+46 silly audit   chokidar: [ '3.6.0' ],
+46 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+46 silly audit   'class-variance-authority': [ '0.7.1' ],
+46 silly audit   clsx: [ '2.1.1' ],
+46 silly audit   cmdk: [ '1.1.1' ],
+46 silly audit   'color-convert': [ '2.0.1' ],
+46 silly audit   'color-name': [ '1.1.4' ],
+46 silly audit   commander: [ '4.1.1' ],
+46 silly audit   'concat-map': [ '0.0.1' ],
+46 silly audit   'cross-spawn': [ '7.0.6' ],
+46 silly audit   cssesc: [ '3.0.0' ],
+46 silly audit   csstype: [ '3.1.3' ],
+46 silly audit   'd3-array': [ '3.2.4' ],
+46 silly audit   'd3-color': [ '3.1.0' ],
+46 silly audit   'd3-ease': [ '3.0.1' ],
+46 silly audit   'd3-format': [ '3.1.0' ],
+46 silly audit   'd3-interpolate': [ '3.0.1' ],
+46 silly audit   'd3-path': [ '3.1.0' ],
+46 silly audit   'd3-scale': [ '4.0.2' ],
+46 silly audit   'd3-shape': [ '3.2.0' ],
+46 silly audit   'd3-time': [ '3.1.0' ],
+46 silly audit   'd3-time-format': [ '4.1.0' ],
+46 silly audit   'd3-timer': [ '3.0.1' ],
+46 silly audit   'date-fns': [ '3.6.0' ],
+46 silly audit   debug: [ '4.3.7' ],
+46 silly audit   'decimal.js-light': [ '2.5.1' ],
+46 silly audit   'deep-is': [ '0.1.4' ],
+46 silly audit   'detect-node-es': [ '1.1.0' ],
+46 silly audit   didyoumean: [ '1.2.2' ],
+46 silly audit   dlv: [ '1.1.3' ],
+46 silly audit   'dom-helpers': [ '5.2.1' ],
+46 silly audit   eastasianwidth: [ '0.2.0' ],
+46 silly audit   'electron-to-chromium': [ '1.5.192' ],
+46 silly audit   'embla-carousel': [ '8.6.0' ],
+46 silly audit   'embla-carousel-react': [ '8.6.0' ],
+46 silly audit   'embla-carousel-reactive-utils': [ '8.6.0' ],
+46 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+46 silly audit   esbuild: [ '0.21.5', '0.25.0' ],
+46 silly audit   escalade: [ '3.2.0' ],
+46 silly audit   'escape-string-regexp': [ '4.0.0' ],
+46 silly audit   eslint: [ '9.32.0' ],
+46 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+46 silly audit   'eslint-plugin-react-refresh': [ '0.4.20' ],
+46 silly audit   'eslint-scope': [ '8.4.0' ],
+46 silly audit   espree: [ '10.4.0' ],
+46 silly audit   esquery: [ '1.6.0' ],
+46 silly audit   esrecurse: [ '4.3.0' ],
+46 silly audit   estraverse: [ '5.3.0' ],
+46 silly audit   esutils: [ '2.0.3' ],
+46 silly audit   eventemitter3: [ '4.0.7' ],
+46 silly audit   'fast-deep-equal': [ '3.1.3' ],
+46 silly audit   'fast-equals': [ '5.2.2' ],
+46 silly audit   'fast-glob': [ '3.3.2' ],
+46 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+46 silly audit   'fast-levenshtein': [ '2.0.6' ],
+46 silly audit   fastq: [ '1.17.1' ],
+46 silly audit   'file-entry-cache': [ '8.0.0' ],
+46 silly audit   'fill-range': [ '7.1.1' ],
+46 silly audit   'find-up': [ '5.0.0' ],
+46 silly audit   'flat-cache': [ '4.0.1' ],
+46 silly audit   flatted: [ '3.3.1' ],
+46 silly audit   'foreground-child': [ '3.3.0' ],
+46 silly audit   'fraction.js': [ '4.3.7' ],
+46 silly audit   'framer-motion': [ '12.25.0' ],
+46 silly audit   fsevents: [ '2.3.3' ],
+46 silly audit   'function-bind': [ '1.1.2' ],
+46 silly audit   'get-nonce': [ '1.0.1' ],
+46 silly audit   glob: [ '10.4.5' ],
+46 silly audit   graphemer: [ '1.4.0' ],
+46 silly audit   'has-flag': [ '4.0.0' ],
+46 silly audit   hasown: [ '2.0.2' ],
+46 silly audit   idb: [ '8.0.3' ],
+46 silly audit   'import-fresh': [ '3.3.1' ],
+46 silly audit   imurmurhash: [ '0.1.4' ],
+46 silly audit   'input-otp': [ '1.4.2' ],
+46 silly audit   internmap: [ '2.0.3' ],
+46 silly audit   'is-binary-path': [ '2.1.0' ],
+46 silly audit   'is-core-module': [ '2.15.1' ],
+46 silly audit   'is-extglob': [ '2.1.1' ],
+46 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+46 silly audit   'is-glob': [ '4.0.3' ],
+46 silly audit   'is-number': [ '7.0.0' ],
+46 silly audit   isexe: [ '2.0.0' ],
+46 silly audit   jackspeak: [ '3.4.3' ],
+46 silly audit   jiti: [ '1.21.6' ],
+46 silly audit   'js-tokens': [ '4.0.0' ],
+46 silly audit   'js-yaml': [ '4.1.0' ],
+46 silly audit   'json-buffer': [ '3.0.1' ],
+46 silly audit   'json-schema-traverse': [ '0.4.1' ],
+46 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+46 silly audit   keyv: [ '4.5.4' ],
+46 silly audit   levn: [ '0.4.1' ],
+46 silly audit   lilconfig: [ '3.1.3' ],
+46 silly audit   'lines-and-columns': [ '1.2.4' ],
+46 silly audit   'locate-path': [ '6.0.0' ],
+46 silly audit   lodash: [ '4.17.21' ],
+46 silly audit   'lodash.castarray': [ '4.4.0' ],
+46 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+46 silly audit   'lodash.merge': [ '4.6.2' ],
+46 silly audit   'loose-envify': [ '1.4.0' ],
+46 silly audit   'lovable-tagger': [ '1.1.13' ],
+46 silly audit   'lru-cache': [ '10.4.3' ],
+46 silly audit   'lucide-react': [ '0.462.0' ],
+46 silly audit   merge2: [ '1.4.1' ],
+46 silly audit   micromatch: [ '4.0.8' ],
+46 silly audit   minipass: [ '7.1.2' ],
+46 silly audit   'motion-dom': [ '12.24.11' ],
+46 silly audit   'motion-utils': [ '12.24.10' ],
+46 silly audit   ms: [ '2.1.3' ],
+46 silly audit   mz: [ '2.7.0' ],
+46 silly audit   nanoid: [ '3.3.11' ],
+46 silly audit   'natural-compare': [ '1.4.0' ],
+46 silly audit   'next-themes': [ '0.3.0' ],
+46 silly audit   'node-releases': [ '2.0.19' ],
+46 silly audit   'normalize-path': [ '3.0.0' ],
+46 silly audit   'normalize-range': [ '0.1.2' ],
+46 silly audit   'object-assign': [ '4.1.1' ],
+46 silly audit   'object-hash': [ '3.0.0' ],
+46 silly audit   optionator: [ '0.9.4' ],
+46 silly audit   'p-limit': [ '3.1.0' ],
+46 silly audit   'p-locate': [ '5.0.0' ],
+46 silly audit   'package-json-from-dist': [ '1.0.1' ],
+46 silly audit   'parent-module': [ '1.0.1' ],
+46 silly audit   'path-exists': [ '4.0.0' ],
+46 silly audit   'path-key': [ '3.1.1' ],
+46 silly audit   'path-parse': [ '1.0.7' ],
+46 silly audit   'path-scurry': [ '1.11.1' ],
+46 silly audit   picocolors: [ '1.1.1' ],
+46 silly audit   picomatch: [ '2.3.1' ],
+46 silly audit   pify: [ '2.3.0' ],
+46 silly audit   pirates: [ '4.0.6' ],
+46 silly audit   postcss: [ '8.5.6' ],
+46 silly audit   'postcss-import': [ '15.1.0' ],
+46 silly audit   'postcss-js': [ '4.0.1' ],
+46 silly audit   'postcss-load-config': [ '4.0.2' ],
+46 silly audit   'postcss-nested': [ '6.2.0' ],
+46 silly audit   'postcss-value-parser': [ '4.2.0' ],
+46 silly audit   'prelude-ls': [ '1.2.1' ],
+46 silly audit   'prop-types': [ '15.8.1' ],
+46 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+46 silly audit   punycode: [ '2.3.1' ],
+46 silly audit   'queue-microtask': [ '1.2.3' ],
+46 silly audit   react: [ '18.3.1' ],
+46 silly audit   'react-day-picker': [ '8.10.1' ],
+46 silly audit   'react-dom': [ '18.3.1' ],
+46 silly audit   'react-hook-form': [ '7.61.1' ],
+46 silly audit   'react-remove-scroll': [ '2.7.1' ],
+46 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+46 silly audit   'react-resizable-panels': [ '2.1.9' ],
+46 silly audit   'react-smooth': [ '4.0.4' ],
+46 silly audit   'react-style-singleton': [ '2.2.3' ],
+46 silly audit   'react-transition-group': [ '4.4.5' ],
+46 silly audit   'read-cache': [ '1.0.0' ],
+46 silly audit   readdirp: [ '3.6.0' ],
+46 silly audit   recharts: [ '2.15.4' ],
+46 silly audit   'recharts-scale': [ '0.4.5' ],
+46 silly audit   resolve: [ '1.22.8' ],
+46 silly audit   'resolve-from': [ '4.0.0' ],
+46 silly audit   reusify: [ '1.0.4' ],
+46 silly audit   rollup: [ '4.24.0' ],
+46 silly audit   'run-parallel': [ '1.2.0' ],
+46 silly audit   scheduler: [ '0.23.2' ],
+46 silly audit   semver: [ '7.7.2' ],
+46 silly audit   'shebang-command': [ '2.0.0' ],
+46 silly audit   'shebang-regex': [ '3.0.0' ],
+46 silly audit   'signal-exit': [ '4.1.0' ],
+46 silly audit   sonner: [ '1.7.4' ],
+46 silly audit   'source-map-js': [ '1.2.1' ],
+46 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+46 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+46 silly audit   'strip-json-comments': [ '3.1.1' ],
+46 silly audit   sucrase: [ '3.35.0' ],
+46 silly audit   'supports-color': [ '7.2.0' ],
+46 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+46 silly audit   'tailwind-merge': [ '2.6.0' ],
+46 silly audit   tailwindcss: [ '3.4.17' ],
+46 silly audit   'tailwindcss-animate': [ '1.0.7' ],
+46 silly audit   thenify: [ '3.3.1' ],
+46 silly audit   'thenify-all': [ '1.6.0' ],
+46 silly audit   'tiny-invariant': [ '1.3.3' ],
+46 silly audit   'to-regex-range': [ '5.0.1' ],
+46 silly audit   'ts-api-utils': [ '2.1.0' ],
+46 silly audit   'ts-interface-checker': [ '0.1.13' ],
+46 silly audit   tslib: [ '2.8.0' ],
+46 silly audit   'type-check': [ '0.4.0' ],
+46 silly audit   typescript: [ '5.8.3' ],
+46 silly audit   'typescript-eslint': [ '8.38.0' ],
+46 silly audit   'undici-types': [ '6.21.0' ],
+46 silly audit   'update-browserslist-db': [ '1.1.3' ],
+46 silly audit   'uri-js': [ '4.4.1' ],
+46 silly audit   'use-callback-ref': [ '1.3.3' ],
+46 silly audit   'use-sidecar': [ '1.1.3' ],
+46 silly audit   'use-sync-external-store': [ '1.5.0' ],
+46 silly audit   'util-deprecate': [ '1.0.2' ],
+46 silly audit   vaul: [ '0.9.9' ],
+46 silly audit   'victory-vendor': [ '36.9.2' ],
+46 silly audit   vite: [ '5.4.19' ],
+46 silly audit   which: [ '2.0.2' ],
+46 silly audit   'word-wrap': [ '1.2.5' ],
+46 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+46 silly audit   yaml: [ '2.6.0' ],
+46 silly audit   'yocto-queue': [ '0.1.0' ],
+46 silly audit   zod: [ '3.25.76' ],
+46 silly audit   'react-router-dom': [ '6.30.3' ],
+46 silly audit   '@remix-run/router': [ '1.23.2' ],
+46 silly audit   'react-router': [ '6.30.3' ]
+46 silly audit }
+47 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\fsevents
+48 silly reify mark deleted [
+48 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\fsevents'
+48 silly reify ]
+49 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-win32-ia32-msvc
+50 silly reify mark deleted [
+50 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-win32-ia32-msvc'
+50 silly reify ]
+51 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-win32-arm64-msvc
+52 silly reify mark deleted [
+52 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-win32-arm64-msvc'
+52 silly reify ]
+53 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-linux-x64-musl
+54 silly reify mark deleted [
+54 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-linux-x64-musl'
+54 silly reify ]
+55 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-linux-x64-gnu
+56 silly reify mark deleted [
+56 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-linux-x64-gnu'
+56 silly reify ]
+57 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-linux-arm64-musl
+58 silly reify mark deleted [
+58 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-linux-arm64-musl'
+58 silly reify ]
+59 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-linux-arm64-gnu
+60 silly reify mark deleted [
+60 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-linux-arm64-gnu'
+60 silly reify ]
+61 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-linux-arm-gnueabihf
+62 silly reify mark deleted [
+62 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-linux-arm-gnueabihf'
+62 silly reify ]
+63 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-darwin-x64
+64 silly reify mark deleted [
+64 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-darwin-x64'
+64 silly reify ]
+65 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@swc\core-darwin-arm64
+66 silly reify mark deleted [
+66 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@swc\\core-darwin-arm64'
+66 silly reify ]
+67 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-win32-ia32-msvc
+68 silly reify mark deleted [
+68 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+68 silly reify ]
+69 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-win32-arm64-msvc
+70 silly reify mark deleted [
+70 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+70 silly reify ]
+71 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-x64-musl
+72 silly reify mark deleted [
+72 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-x64-musl'
+72 silly reify ]
+73 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-x64-gnu
+74 silly reify mark deleted [
+74 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-s390x-gnu
+76 silly reify mark deleted [
+76 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+76 silly reify ]
+77 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-riscv64-gnu
+78 silly reify mark deleted [
+78 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+78 silly reify ]
+79 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-powerpc64le-gnu
+80 silly reify mark deleted [
+80 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-powerpc64le-gnu'
+80 silly reify ]
+81 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-arm64-musl
+82 silly reify mark deleted [
+82 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+82 silly reify ]
+83 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-arm64-gnu
+84 silly reify mark deleted [
+84 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+84 silly reify ]
+85 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-arm-musleabihf
+86 silly reify mark deleted [
+86 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+86 silly reify ]
+87 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-linux-arm-gnueabihf
+88 silly reify mark deleted [
+88 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+88 silly reify ]
+89 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-darwin-x64
+90 silly reify mark deleted [
+90 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-darwin-x64'
+90 silly reify ]
+91 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-darwin-arm64
+92 silly reify mark deleted [
+92 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-darwin-arm64'
+92 silly reify ]
+93 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-android-arm64
+94 silly reify mark deleted [
+94 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-android-arm64'
+94 silly reify ]
+95 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@rollup\rollup-android-arm-eabi
+96 silly reify mark deleted [
+96 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@rollup\\rollup-android-arm-eabi'
+96 silly reify ]
+97 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\win32-ia32
+98 silly reify mark deleted [
+98 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\win32-ia32'
+98 silly reify ]
+99 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\win32-arm64
+100 silly reify mark deleted [
+100 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\win32-arm64'
+100 silly reify ]
+101 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\sunos-x64
+102 silly reify mark deleted [
+102 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\sunos-x64'
+102 silly reify ]
+103 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\openbsd-x64
+104 silly reify mark deleted [
+104 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\openbsd-x64'
+104 silly reify ]
+105 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\openbsd-arm64
+106 silly reify mark deleted [
+106 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\openbsd-arm64'
+106 silly reify ]
+107 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\netbsd-x64
+108 silly reify mark deleted [
+108 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\netbsd-x64'
+108 silly reify ]
+109 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\netbsd-arm64
+110 silly reify mark deleted [
+110 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\netbsd-arm64'
+110 silly reify ]
+111 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-x64
+112 silly reify mark deleted [
+112 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-x64'
+112 silly reify ]
+113 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-s390x
+114 silly reify mark deleted [
+114 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-s390x'
+114 silly reify ]
+115 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-riscv64
+116 silly reify mark deleted [
+116 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-riscv64'
+116 silly reify ]
+117 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-ppc64
+118 silly reify mark deleted [
+118 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-ppc64'
+118 silly reify ]
+119 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-mips64el
+120 silly reify mark deleted [
+120 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-mips64el'
+120 silly reify ]
+121 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-loong64
+122 silly reify mark deleted [
+122 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-loong64'
+122 silly reify ]
+123 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-ia32
+124 silly reify mark deleted [
+124 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-ia32'
+124 silly reify ]
+125 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-arm64
+126 silly reify mark deleted [
+126 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-arm64'
+126 silly reify ]
+127 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\linux-arm
+128 silly reify mark deleted [
+128 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\linux-arm'
+128 silly reify ]
+129 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\freebsd-x64
+130 silly reify mark deleted [
+130 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\freebsd-x64'
+130 silly reify ]
+131 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\freebsd-arm64
+132 silly reify mark deleted [
+132 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\freebsd-arm64'
+132 silly reify ]
+133 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\darwin-x64
+134 silly reify mark deleted [
+134 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\darwin-x64'
+134 silly reify ]
+135 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\darwin-arm64
+136 silly reify mark deleted [
+136 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\darwin-arm64'
+136 silly reify ]
+137 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\android-x64
+138 silly reify mark deleted [
+138 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\android-x64'
+138 silly reify ]
+139 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\android-arm64
+140 silly reify mark deleted [
+140 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\android-arm64'
+140 silly reify ]
+141 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\android-arm
+142 silly reify mark deleted [
+142 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\android-arm'
+142 silly reify ]
+143 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\@esbuild\aix-ppc64
+144 silly reify mark deleted [
+144 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\@esbuild\\aix-ppc64'
+144 silly reify ]
+145 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\win32-ia32
+146 silly reify mark deleted [
+146 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\win32-ia32'
+146 silly reify ]
+147 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\win32-arm64
+148 silly reify mark deleted [
+148 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\win32-arm64'
+148 silly reify ]
+149 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\sunos-x64
+150 silly reify mark deleted [
+150 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\sunos-x64'
+150 silly reify ]
+151 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\openbsd-x64
+152 silly reify mark deleted [
+152 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\openbsd-x64'
+152 silly reify ]
+153 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\netbsd-x64
+154 silly reify mark deleted [
+154 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\netbsd-x64'
+154 silly reify ]
+155 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-x64
+156 silly reify mark deleted [
+156 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-x64'
+156 silly reify ]
+157 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-s390x
+158 silly reify mark deleted [
+158 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-s390x'
+158 silly reify ]
+159 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-riscv64
+160 silly reify mark deleted [
+160 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-riscv64'
+160 silly reify ]
+161 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-ppc64
+162 silly reify mark deleted [
+162 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-ppc64'
+162 silly reify ]
+163 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-mips64el
+164 silly reify mark deleted [
+164 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-mips64el'
+164 silly reify ]
+165 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-loong64
+166 silly reify mark deleted [
+166 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-loong64'
+166 silly reify ]
+167 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-ia32
+168 silly reify mark deleted [
+168 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-ia32'
+168 silly reify ]
+169 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-arm64
+170 silly reify mark deleted [
+170 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-arm64'
+170 silly reify ]
+171 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\linux-arm
+172 silly reify mark deleted [
+172 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\linux-arm'
+172 silly reify ]
+173 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\freebsd-x64
+174 silly reify mark deleted [
+174 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\freebsd-x64'
+174 silly reify ]
+175 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\freebsd-arm64
+176 silly reify mark deleted [
+176 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\freebsd-arm64'
+176 silly reify ]
+177 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\darwin-x64
+178 silly reify mark deleted [
+178 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\darwin-x64'
+178 silly reify ]
+179 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\darwin-arm64
+180 silly reify mark deleted [
+180 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\darwin-arm64'
+180 silly reify ]
+181 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\android-x64
+182 silly reify mark deleted [
+182 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\android-x64'
+182 silly reify ]
+183 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\android-arm64
+184 silly reify mark deleted [
+184 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\android-arm64'
+184 silly reify ]
+185 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\android-arm
+186 silly reify mark deleted [
+186 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\android-arm'
+186 silly reify ]
+187 verbose reify failed optional dependency D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\node_modules\lovable-tagger\node_modules\@esbuild\aix-ppc64
+188 silly reify mark deleted [
+188 silly reify   'D:\\Desktop\\sahayak-memory-main\\sahayak-memory-companion-main\\node_modules\\lovable-tagger\\node_modules\\@esbuild\\aix-ppc64'
+188 silly reify ]
+189 http cache @remix-run/router@https://registry.npmjs.org/@remix-run/router/-/router-1.23.2.tgz 0ms (cache hit)
+190 http cache react-router@https://registry.npmjs.org/react-router/-/react-router-6.30.3.tgz 0ms (cache hit)
+191 silly tarball no local data for @remix-run/router@https://registry.npmjs.org/@remix-run/router/-/router-1.23.2.tgz. Extracting by manifest.
+192 http cache react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.30.3.tgz 0ms (cache hit)
+193 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-6.30.3.tgz. Extracting by manifest.
+194 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.30.3.tgz. Extracting by manifest.
+195 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 508ms
+196 silly audit report {
+196 silly audit report   esbuild: [
+196 silly audit report     {
+196 silly audit report       id: 1102341,
+196 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+196 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+196 silly audit report       severity: 'moderate',
+196 silly audit report       vulnerable_versions: '<=0.24.2',
+196 silly audit report       cwe: [Array],
+196 silly audit report       cvss: [Object]
+196 silly audit report     }
+196 silly audit report   ],
+196 silly audit report   glob: [
+196 silly audit report     {
+196 silly audit report       id: 1109842,
+196 silly audit report       url: 'https://github.com/advisories/GHSA-5j98-mcp5-4vw2',
+196 silly audit report       title: 'glob CLI: Command injection via -c/--cmd executes matches with shell:true',
+196 silly audit report       severity: 'high',
+196 silly audit report       vulnerable_versions: '>=10.2.0 <10.5.0',
+196 silly audit report       cwe: [Array],
+196 silly audit report       cvss: [Object]
+196 silly audit report     }
+196 silly audit report   ],
+196 silly audit report   'js-yaml': [
+196 silly audit report     {
+196 silly audit report       id: 1109802,
+196 silly audit report       url: 'https://github.com/advisories/GHSA-mh29-5h37-fv8m',
+196 silly audit report       title: 'js-yaml has prototype pollution in merge (<<)',
+196 silly audit report       severity: 'moderate',
+196 silly audit report       vulnerable_versions: '>=4.0.0 <4.1.1',
+196 silly audit report       cwe: [Array],
+196 silly audit report       cvss: [Object]
+196 silly audit report     }
+196 silly audit report   ],
+196 silly audit report   vite: [
+196 silly audit report     {
+196 silly audit report       id: 1107323,
+196 silly audit report       url: 'https://github.com/advisories/GHSA-g4jq-h2w9-997c',
+196 silly audit report       title: 'Vite middleware may serve files starting with the same name with the public directory',
+196 silly audit report       severity: 'low',
+196 silly audit report       vulnerable_versions: '<=5.4.19',
+196 silly audit report       cwe: [Array],
+196 silly audit report       cvss: [Object]
+196 silly audit report     },
+196 silly audit report     {
+196 silly audit report       id: 1107327,
+196 silly audit report       url: 'https://github.com/advisories/GHSA-jqfw-vq24-v9c3',
+196 silly audit report       title: "Vite's `server.fs` settings were not applied to HTML files",
+196 silly audit report       severity: 'low',
+196 silly audit report       vulnerable_versions: '<=5.4.19',
+196 silly audit report       cwe: [Array],
+196 silly audit report       cvss: [Object]
+196 silly audit report     },
+196 silly audit report     {
+196 silly audit report       id: 1109131,
+196 silly audit report       url: 'https://github.com/advisories/GHSA-93m4-6634-74q7',
+196 silly audit report       title: 'vite allows server.fs.deny bypass via backslash on Windows',
+196 silly audit report       severity: 'moderate',
+196 silly audit report       vulnerable_versions: '>=5.2.6 <=5.4.20',
+196 silly audit report       cwe: [Array],
+196 silly audit report       cvss: [Object]
+196 silly audit report     }
+196 silly audit report   ]
+196 silly audit report }
+197 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+198 silly packumentCache corgi:https://registry.npmjs.org/glob cache-miss
+199 silly packumentCache corgi:https://registry.npmjs.org/js-yaml cache-miss
+200 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.30.3.tgz 501ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-6.30.3.tgz 543ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/vite 119ms (cache revalidated)
+204 silly packumentCache corgi:https://registry.npmjs.org/vite set size:2163324 disposed:false
+205 http fetch GET 200 https://registry.npmjs.org/glob 144ms (cache revalidated)
+206 silly packumentCache corgi:https://registry.npmjs.org/glob set size:159574 disposed:false
+207 http fetch GET 200 https://registry.npmjs.org/@remix-run/router/-/router-1.23.2.tgz 703ms (cache miss)
+208 http fetch GET 200 https://registry.npmjs.org/esbuild 400ms (cache revalidated)
+209 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:877737 disposed:false
+210 http fetch GET 200 https://registry.npmjs.org/js-yaml 407ms (cache revalidated)
+211 silly packumentCache corgi:https://registry.npmjs.org/js-yaml set size:58533 disposed:false
+212 silly packumentCache corgi:https://registry.npmjs.org/sucrase cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/sucrase 78ms (cache revalidated)
+214 silly packumentCache corgi:https://registry.npmjs.org/sucrase set size:163085 disposed:false
+215 silly packumentCache corgi:https://registry.npmjs.org/@eslint%2feslintrc cache-miss
+216 http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 148ms (cache revalidated)
+217 silly packumentCache corgi:https://registry.npmjs.org/@eslint%2feslintrc set size:80753 disposed:false
+218 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react-swc cache-miss
+219 silly packumentCache corgi:https://registry.npmjs.org/lovable-tagger cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/lovable-tagger 369ms (cache revalidated)
+221 silly packumentCache corgi:https://registry.npmjs.org/lovable-tagger set size:21916 disposed:false
+222 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react-swc 920ms (cache revalidated)
+223 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react-swc set size:35355 disposed:false
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly ADD
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly ADD
+245 silly ADD
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD
+265 silly ADD
+266 silly ADD
+267 silly ADD
+268 silly ADD
+269 silly ADD
+270 silly ADD
+271 silly ADD
+272 silly ADD
+273 silly CHANGE node_modules/@remix-run/router
+274 silly CHANGE node_modules/react-router-dom
+275 silly CHANGE node_modules/react-router
+276 silly ADD
+277 silly ADD
+278 silly ADD
+279 silly ADD
+280 silly ADD
+281 silly ADD
+282 silly ADD
+283 silly ADD
+284 silly ADD
+285 silly ADD
+286 silly ADD
+287 silly ADD
+288 silly ADD
+289 silly ADD
+290 silly ADD
+291 silly ADD
+292 silly ADD
+293 silly ADD
+294 silly ADD
+295 silly ADD
+296 silly ADD
+297 silly ADD
+298 verbose cwd D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main
+299 verbose os Windows_NT 10.0.26200
+300 verbose node v22.21.0
+301 verbose npm  v10.9.4
+302 verbose exit 0
+303 info ok

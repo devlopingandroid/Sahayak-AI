@@ -1,0 +1,17 @@
+{
+  "name": "Sahayak",
+  "short_name": "Sahayak",
+  "description": "AI-assisted memory support for seniors with Alzheimer's",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F0F4F8",
+  "theme_color": "#00897B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

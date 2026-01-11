@@ -1,0 +1,39 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.4
+2 info using node@v22.21.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\.npmrc
+5 silly config load:file:C:\Users\hp\.npmrc
+6 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run start
+8 verbose argv "run" "start"
+9 verbose logfile logs-max:10 dir:D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-01-11T14_39_52_850Z-
+10 verbose logfile D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-01-11T14_39_52_850Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose stack Error: Missing script: "start"
+12 verbose stack
+12 verbose stack Did you mean one of these?
+12 verbose stack   npm star # Mark your favorite packages
+12 verbose stack   npm stars # View packages marked as favorites
+12 verbose stack
+12 verbose stack To see a list of scripts, run:
+12 verbose stack   npm run
+12 verbose stack     at #run (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:111:13)
+12 verbose stack     at async RunScript.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:40:7)
+12 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:207:9)
+12 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+13 error Missing script: "start"
+13 error
+13 error Did you mean one of these?
+13 error   npm star # Mark your favorite packages
+13 error   npm stars # View packages marked as favorites
+13 error
+13 error To see a list of scripts, run:
+13 error   npm run
+14 verbose cwd D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main
+15 verbose os Windows_NT 10.0.26200
+16 verbose node v22.21.0
+17 verbose npm  v10.9.4
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: D:\Desktop\sahayak-memory-main\sahayak-memory-companion-main\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-01-11T14_39_52_850Z-debug-0.log
