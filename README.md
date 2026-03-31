@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/AI-Edge_Computing-00C853?style=for-the-badge&logo=nvidia&logoColor=white" />
   </p>
 
-  <h3 align="center">✨ Hack The Winter: The Second Wave (Angry Bird Edition) ✨</h3>
+  <h3 align="center">✨ Protex: Hack-2-Win ✨</h3>
 </div>
 
 ---
@@ -242,9 +242,9 @@ Follow these steps to deploy Sahayak on a Raspberry Pi 5 (or 4B).
 
 ## 📋 Prerequisites
 
-Device: Raspberry Pi 5 (Recommended) or Pi 4 (8GB RAM)
+Device: Raspberry Pi 5 (Recommended) or Pi 4 (8GB RAM) or ESP32 CAM
 
-OS: Raspberry Pi OS (64-bit)
+OS: Raspberry Pi OS (64-bit) Or Arduino IDE
 
 Python: 3.9 or 3.10
 
@@ -401,31 +401,24 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
     <td align="center" width="25%">
       <img src="https://drive.google.com/uc?export=view&id=1sRWP36lF635KAcx8IElS7USmAerTET16" width="100px" alt="Team Member" />
 <br />
-      <b>Chakshu Arora</b><br>
-      <a href="https://www.linkedin.com/in/chakshuarora716/">
+      <b>Khushi Sharma</b><br>
+      <a href="www.linkedin.com/in/khushish18/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       🧠 <i>Memory Architect</i><br />
       Episodic Memory & Agents
     </td>
     <td align="center" width="25%">
-      <img src="https://drive.google.com/uc?export=view&id=1gnI2DuuPMv8jG02DJVa_SrXMJMOh87s4" width="100px" alt="Team Member" />
+      <img src="https://drive.google.com/file/d/1ZvF8RjblBYJdmEEJ9_zH_1cZ8SbY-e7Q/view?usp=sharing" width="100px" alt="Team Member" />
 <br />
-      <b>Yash Goel</b><br>
-      <a href="https://www.linkedin.com/in/yash-goelcs/">
+      <b>Aayushi Gupta</b><br>
+      <a href="https://www.linkedin.com/in/aayushi-gupta-991720325/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       🗣️ <i>Voice Engineer</i><br />
       NLP & Accessibility
     </td>
-    <td align="center" width="25%">
-      <img src="https://drive.google.com/uc?export=view&id=198uqapZ9weDS0HqTCQpTF2tX4nEoPclQ" width="100px" alt="Profile Image" /><br />
-      <b>Anshuman Dutta</b><br>
-      <a href="https://www.linkedin.com/in/anshuman-dutta-b62b37339/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-      </a><br />
-      👁️ <i>Vision Lead</i><br />
-      Computer Vision (YOLO/CLIP)
+   
     </td>
   </tr>
 </table>
@@ -443,8 +436,8 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
   <p><i>"Preserving memories, one line of code at a time."</i></p>
   <br />
   <p>
-    Made with ❤️ & ☕ by <b>Team Sicario</b><br>
-    <b>Hack The Winter (Round 1)</b>
+    Made <b>Team Percevia</b><br>
+    <b>Protex: Hack-2-Win (Round 1)</b>
   </p>
 </div>
 
