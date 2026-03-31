@@ -383,7 +383,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
 
 > *"Our ultimate goal is to make Sahayak invisible—technology that helps you live, without getting in the way."*
 ---
-## ⚔️ Meet Team Sicario
+## ⚔️ Meet Team Percevia
 
 <div align="center">
 <table>
@@ -399,7 +399,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       Hardware & Edge Privacy
     </td>
     <td align="center" width="25%">
-      <img src="https://drive.google.com/uc?export=view&id=1sRWP36lF635KAcx8IElS7USmAerTET16" width="100px" alt="Team Member" />
+      <img src="https://drive.google.com/uc?export=view&id=1_4z0OUDLOYTasXDDlEnNtigU2poP53zF" width="100px" alt="Team Member" />
 <br />
       <b>Khushi Sharma</b><br>
       <a href="www.linkedin.com/in/khushish18/">
@@ -409,7 +409,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       Episodic Memory & Agents
     </td>
     <td align="center" width="25%">
-      <img src="https://drive.google.com/file/d/1ZvF8RjblBYJdmEEJ9_zH_1cZ8SbY-e7Q/view?usp=sharing" width="100px" alt="Team Member" />
+      <img src="https://drive.google.com/uc?export=view&id=1ZvF8RjblBYJdmEEJ9_zH_1cZ8SbY-e7Q" width="100px" alt="Team Member" />
 <br />
       <b>Aayushi Gupta</b><br>
       <a href="https://www.linkedin.com/in/aayushi-gupta-991720325/">
