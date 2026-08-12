@@ -386,41 +386,49 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
 ## ⚔️ Meet Team Percevia
 
 <div align="center">
+
 <table>
   <tr>
+
+    <!-- Yash Goel -->
     <td align="center" width="25%">
-      <img src="https://drive.google.com/uc?export=view&id=1q4xFtwDH4_JFJRPE7y1GKGvY0MAXakMZ" width="100px" alt="Team Member" />
-<br />
-      <b>Tanish Aggarwal</b><br>
-      <a href="https://www.linkedin.com/in/tanishaggarwal06/">
-        <img src=""/>
+     <img src="https://drive.google.com/file/d/1S4_7pbT3Yhg8_LB-EyLE_d0tPlF05Vju/view?usp=sharing" width="100px" alt="Yash Goel" />
+      <br />
+      <b>Yash Goel</b><br>
+      <a href="https://www.linkedin.com/in/yash-goelcs/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       👑 <i>Team Lead</i><br />
-      Hardware & Edge Privacy
+      AI Engineering & Full Stack Development
     </td>
+
+    <!-- Tanish Aggarwal -->
     <td align="center" width="25%">
-      <img src="https://drive.google.com/uc?export=view&id=1_4z0OUDLOYTasXDDlEnNtigU2poP53zF" width="100px" alt="Team Member" />
-<br />
-      <b>Khushi Sharma</b><br>
-      <a href="www.linkedin.com/in/khushish18/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-      </a><br />
-      🧠 <i>Memory Architect</i><br />
-      Episodic Memory & Agents
-    </td>
-    <td align="center" width="25%">
-      <img src="https://drive.usercontent.google.com/download?id=1Rbq5oylXP8-XMWBSGRM_XEhHQ2-Wvu15&export=view&authuser=0" width="100px" alt="Team Member" />
-<br />
-       <b>Tanish Aggarwal</b><br>
+      <img src="https://drive.google.com/uc?export=view&id=1q4xFtwDH4_JFJRPE7y1GKGvY0MAXakMZ" width="100px" alt="Tanish Aggarwal" />
+      <br />
+      <b>Tanish Aggarwal</b><br>
       <a href="https://www.linkedin.com/in/tanishaggarwal06/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
+      Hardware & Edge Privacy
+    </td>
+
+    <!-- Khushi Sharma -->
+    <td align="center" width="25%">
+      <img src="https://drive.google.com/uc?export=view&id=1_4z0OUDLOYTasXDDlEnNtigU2poP53zF" width="100px" alt="Khushi Sharma" />
+      <br />
+      <b>Khushi Sharma</b><br>
+      <a href="https://www.linkedin.com/in/khushish18/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+      </a><br />
       🧠 <i>Memory Architect</i><br />
       Episodic Memory & Agents
     </td>
+
+    <!-- Palak Gupta -->
     <td align="center" width="25%">
-      <img src="https://drive.google.com/uc?export=view&id=1_4z0OUDLOYTasXDDlEnNtigU2poP53zF" width="100px" alt="Team Member" />
-<br />
+      <img src="https://drive.usercontent.google.com/download?id=1Rbq5oylXP8-XMWBSGRM_XEhHQ2-Wvu15&export=view&authuser=0" width="100px" alt="Palak Gupta" />
+      <br />
       <b>Palak Gupta</b><br>
       <a href="https://www.linkedin.com/in/palak-gupta-0613a7325/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -428,11 +436,9 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       🗣️ <i>Voice Engineer</i><br />
       NLP & Accessibility
     </td>
-   
-    </td>
+
   </tr>
 </table>
-
 **College:** Vivekananda Institute of Professional Studies (VIPS), Delhi 🏛️
 </div>
 
