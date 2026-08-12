@@ -393,7 +393,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
 <br />
       <b>Tanish Aggarwal</b><br>
       <a href="https://www.linkedin.com/in/tanishaggarwal06/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+        <img src=""/>
       </a><br />
       👑 <i>Team Lead</i><br />
       Hardware & Edge Privacy
@@ -446,8 +446,7 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
   <p><i>"Preserving memories, one line of code at a time."</i></p>
   <br />
   <p>
-    Made <b>Team Percevia</b><br>
-    <b>Protex: Hack-2-Win (Round 1)</b>
+    Made <b>Team Sahayak</b><br>
   </p>
 </div>
 
