@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/AI-Edge_Computing-00C853?style=for-the-badge&logo=nvidia&logoColor=white" />
   </p>
 
-  <h3 align="center">✨ Protex: Hack-2-Win ✨</h3>
+  <h3 align="center">✨ Brainwave ✨</h3>
 </div>
 
 ---
@@ -409,10 +409,10 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
       Episodic Memory & Agents
     </td>
     <td align="center" width="25%">
-      <img src="https://drive.google.com/uc?export=view&id=1ZvF8RjblBYJdmEEJ9_zH_1cZ8SbY-e7Q" width="100px" alt="Team Member" />
+      <img src="https://drive.usercontent.google.com/download?id=1Rbq5oylXP8-XMWBSGRM_XEhHQ2-Wvu15&export=view&authuser=0" width="100px" alt="Team Member" />
 <br />
-      <b>Aayushi Gupta</b><br>
-      <a href="https://www.linkedin.com/in/aayushi-gupta-991720325/">
+      <b>Palak Gupta</b><br>
+      <a href="https://www.linkedin.com/in/palak-gupta-0613a7325/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
       </a><br />
       🗣️ <i>Voice Engineer</i><br />
