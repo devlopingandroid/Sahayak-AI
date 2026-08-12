@@ -411,6 +411,16 @@ We have a clear vision to evolve Sahayak from a prototype to a medical-grade pro
     <td align="center" width="25%">
       <img src="https://drive.usercontent.google.com/download?id=1Rbq5oylXP8-XMWBSGRM_XEhHQ2-Wvu15&export=view&authuser=0" width="100px" alt="Team Member" />
 <br />
+       <b>Tanish Aggarwal</b><br>
+      <a href="https://www.linkedin.com/in/tanishaggarwal06/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+      </a><br />
+      🧠 <i>Memory Architect</i><br />
+      Episodic Memory & Agents
+    </td>
+    <td align="center" width="25%">
+      <img src="https://drive.google.com/uc?export=view&id=1_4z0OUDLOYTasXDDlEnNtigU2poP53zF" width="100px" alt="Team Member" />
+<br />
       <b>Palak Gupta</b><br>
       <a href="https://www.linkedin.com/in/palak-gupta-0613a7325/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
